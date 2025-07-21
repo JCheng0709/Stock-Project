@@ -1,11 +1,3 @@
-# profit_analysis_table.py   (v5  ── 全面 Python 3.9 相容)
-"""
-* 修掉所有 3.10+ 型別標註 (`list[...]`, `int | None`) → 改用 typing.List / Optional
-* `parse_year_season()` 回傳單一 `Tuple[int, Optional[int]]`
-* `year_iter()` 直接 `range(start, end+1)`，不再用 datetime
-* `ask_range()` 回傳 `List[Tuple[int, Optional[int]]]`
-* `main()` 依照上述回傳格式重新迴圈 year / season
-"""
 from __future__ import annotations
 
 import time
